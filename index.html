@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic meta taga
+    =========================================== -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- meteralize css cdn
+    =========================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- google icons and font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+
+    <!-- page title
+    =========================================== -->
+    <title>Materialize css website</title>
+</head>
+
+<body>
+    <!-- nav bar
+    =========================================== -->
+    <header id="home" class="scrollspy">
+        <nav class="transparent z-depth-0">
+            <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo black-text">Nature</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="black-text" href="#home">Home</a></li>
+                    <li><a class="black-text" href="#gallary">Gallary</a></li>
+                    <li><a class="black-text" href="#services">Services</a></li>
+                    <li><a class="black-text" href="#contact">Contact us</a></li>
+                    <li><a class="black-text" href="#footer">Social</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav red lighten-4" id="mobile-demo">
+            <li><a class="black-text" href="#home">Home</a></li>
+            <li><a class="black-text" href="#gallary">Gallary</a></li>
+            <li><a class="black-text" href="#services">Services</a></li>
+            <li><a class="black-text" href="#contact">Contact us</a></li>
+            <li><a class="black-text" href="#footer">Social</a></li>
+        </ul>
+    </header>
+    <!-- /nav -->
+
+    <!-- gallary
+    =========================================== -->
+    <div class="container section scrollspy" id="gallary">
+        <h2 class="black-text center-align">Gallery</h2>
+        <div class="row section" style="width: 100%; margin: 0">
+            <img src="./images/img1.jpg" alt="" class="col s12 l4" style="margin: 0" />
+            <div class="col s12 l6 offset-l1">
+                <h2 class="pink-text">Pink sky</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                    doloribus harum porro laborum
+                </p>
+            </div>
+            <!-- /text -->
+        </div>
+        <!-- /row1 -->
+        <div class="row section" style="width: 100%">
+            <img src="./images/img2.jpg" alt="" class="col s12 l4 push-l8" ">
+        <div class=" col s12 l6 pull-l4">
+            <h2 class="brown-text">Brown sand</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                doloribus harum porro laborum
+            </p>
+        </div>
+        <!-- /text -->
+    </div>
+    <!-- /row2 -->
+    <div class="row section" style="width: 100%; margin: 0">
+        <img src="./images/img3.jpg" alt="" class="col s12 l4" />
+        <div class="col s12 l6 offset-l1">
+            <h2 class="blue-grey-text">Blue air</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                doloribus harum porro laborum
+            </p>
+        </div>
+        <!-- /text -->
+    </div>
+    <!-- /row3 -->
+    </div>
+    <!-- /container gallery -->
+
+    <!-- parallax 1 effect
+    =========================================== -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="./images/parallax1.jpg" /></div>
+    </div>
+
+    <!-- tabs section servises
+    =========================================== -->
+    <div class="container section scrollspy" id="services">
+        <div class="row">
+            <div class="col s12 l6">
+                <h2 class="black-text">What I do..</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                    doloribus harum porro laborum
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+                    doloribus harum porro laborum
+                </p>
+            </div>
+            <!--left part -->
+            <div class="col s12 l6" style="height: 250px">
+                <div class="row section">
+                    <ul class="tabs">
+                        <li class="tab col s3">
+                            <a class="active" href="#test1">Photography</a>
+                        </li>
+                        <li class="tab col s3"><a href="#test2">Editing</a></li>
+                    </ul>
+                </div>
+                <div id="test1" class="col s12 l6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                        sapiente optio sequi ipsam dolor, reiciendis excepturi dicta vitae
+                        error possimus,
+                    </p>
+                </div>
+                <div id="test2" class="col s12">
+                    <p>
+                        soluta harum maiores natus aliquid architecto rerum exercitationem
+                        quod beatae? ipsam dolor reiciendis excepturi dicta vitae error
+                        possimus,
+                    </p>
+                </div>
+            </div>
+            <!--right part -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /servises -->
+
+    <!-- parallax 2 effect
+    =========================================== -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./images/parallax2.jpg" />
+        </div>
+    </div>
+
+    <!-- contact section
+    =========================================== -->
+    <div class="container section scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l6">
+                <h2 class="black-text">Contact us</h2>
+                <p>
+                    soluta harum maiores natus aliquid architecto rerum exercitationem
+                    quod beatae? ipsam dolor reiciendis excepturi dicta vitae error
+                    possimus,
+                </p>
+                <p>
+                    soluta harum maiores natus aliquid architecto rerum exercitationem
+                    quod beatae? ipsam dolor reiciendis excepturi dicta vitae error
+                    possimus,
+                </p>
+                <p>
+                    soluta harum maiores natus aliquid architecto rerum exercitationem
+                    quod beatae? ipsam dolor reiciendis excepturi dicta vitae error
+                    possimus,
+                </p>
+            </div>
+            <div class="col s12 l5 offset-l1">
+                <div class="input-field col s10 l12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate" />
+                    <label for="icon_prefix">Name</label>
+                </div>
+                <div class="input-field col s10 l12">
+                    <i class="material-icons prefix">mail</i>
+                    <input id="email" type="email" class="validate" />
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="Enter a valid email" data-success="right"></span>
+                </div>
+                <div class="input-field col s10 l12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Message</label>
+                </div>
+                <div class="input-field col s10 l12">
+                    <i class="material-icons prefix">event</i>
+                    <input id="date" type="text" class="datepicker" style="cursor: pointer" />
+                    <label for="date" style="cursor: pointer">Set up a meeting day</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+    <!-- tabs section servises
+    =========================================== -->
+    <footer class="page-footer blue-grey darken-4 scrollspy" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Nature</h5>
+                    <p class="grey-text text-lighten-1">
+                        soluta harum maiores natus aliquid architecto rerum exercitationem
+                        quod beatae? ipsam dolor reiciendis excepturi dicta vitae error
+                        possimus,
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Social</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Facebook</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Instagram</a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#">Home</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- materialze js cdn
+    =========================================== -->
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- material js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // side nav
+            $(".sidenav").sidenav();
+            // parallax
+            $(".parallax").parallax();
+            //tabs
+            $(".tabs").tabs({ swipeable: true, responsiveThreshold: Infinity });
+            // datepicker
+            $(".datepicker").datepicker();
+            // scroll spy
+            $(".scrollspy").scrollSpy({ throttle: 2000 });
+        });
+    </script>
+</body>
+
+</html>
